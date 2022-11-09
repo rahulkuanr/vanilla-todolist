@@ -29,7 +29,7 @@ window.addEventListener("load", () => {
 
     const radioImageElement = document.createElement("img");
     radioImageElement.src =
-      "https://cdn-user-icons.flaticon.com/83218/83218139/1668028052631.svg?token=exp=1668028973~hmac=fd9ab01783834aaf38a40396c2db0dfe";
+      "https://cdn-icons-png.flaticon.com/512/399/399278.png";
     radioImageElement.alt = "edit-button";
     radioImageElement.style = "height: 20px; width: 20px;";
 
