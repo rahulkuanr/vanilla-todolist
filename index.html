@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla TaskList</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Vanilla TaskList</h1>
+      <form id="add-task-form">
+        <input
+          type="text"
+          id="add-task-input"
+          placeholder="Add a task.."
+          required
+        />
+        <button type="submit">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/1828/1828817.png"
+            alt="add-button"
+            id="submit-task"
+            style="height: 30px; width: 30px"
+          />
+        </button>
+      </form>
+    </header>
+
+    <main>
+      <section class="task-list">
+        <h2 id="tasks-heading"></h2>
+        <div id="tasks">
+          <!--Tasks will be added here-->
+        </div>
+      </section>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
